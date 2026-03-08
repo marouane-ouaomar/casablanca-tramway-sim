@@ -1,0 +1,41 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual envs
+.venv/
+venv/
+env/
+.conda/
+
+# Generated data — downloaded at runtime from Overpass API
+data/processed/*.pkl
+data/processed/*.geojson
+data/processed/*.csv
+data/raw/
+
+# Streamlit cache
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Docker build artefacts
+*.tar.gz
